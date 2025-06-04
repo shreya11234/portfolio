@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreya Pandey | Model</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon (optional, but good for polish) -->
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Prata&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Icon Library (for social media, optional: Font Awesome) -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+</head>
+<body>
+    <div class="custom-cursor"></div>
+
+    <!-- Header / Navigation -->
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">Shreya P.</div>
+            <nav>
+                <ul>
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-background">
+                <!-- Image will be set via CSS for better control -->
+            </div>
+            <div class="hero-content">
+                <h1 class="reveal-text">SHREYA PANDEY</h1>
+                <p class="reveal-text" data-delay="0.3s">Model</p>
+            </div>
+            <a href="#about" class="scroll-down-prompt">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"></path></svg>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="content-section">
+            <div class="container about-container">
+                <div class="about-image-wrapper reveal-item" data-reveal-type="fadeInLeft">
+                    <img src="image 2.jpg" alt="Shreya Pandey Profile">
+                </div>
+                <div class="about-text-content reveal-item" data-reveal-type="fadeInRight">
+                    <h2>Behind the Lens</h2>
+                    <p>Hello! I'm Shreya Pandey, a passionate and dedicated model based in [Your City/Region - Add this]. With a drive for creative expression and a love for the art of fashion, I bring energy, professionalism, and a unique presence to every project.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Age:</span>
+                            <span class="stat-value">21</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Height:</span>
+                            <span class="stat-value">5'6" (168 cm)</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Shoe:</span>
+                            <span class="stat-value">6-7</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Hair:</span>
+                            <span class="stat-value">Black</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Eyes:</span>
+                            <span class="stat-value">Brown-Black</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="cta-button">Book Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section - Horizontal Scroll -->
+        <section id="portfolio" class="content-section portfolio-horizontal">
+            <div class="section-title-container reveal-item">
+                 <h2>My Work</h2>
+                 <p>A glimpse into my diverse modeling experiences.</p>
+            </div>
+            <div class="horizontal-scroll-wrapper">
+                <div class="horizontal-scroll-content">
+                    <div class="portfolio-card reveal-item" data-reveal-type="scaleUp">
+                        <img src="image 5.jpg" alt="Editorial Shoot 1" class="lightbox-trigger">
+                        <div class="card-caption">Editorial Feature</div>
+                    </div>
+                    <div class="portfolio-card reveal-item" data-reveal-type="scaleUp" data-delay="0.1s">
+                        <img src="image 2.jpg" alt="Commercial Shoot 1" class="lightbox-trigger">
+                        <div class="card-caption">Brand Campaign</div>
+                    </div>
+                    <div class="portfolio-card reveal-item" data-reveal-type="scaleUp" data-delay="0.2s">
+                        <img src="image 6.jpg" alt="Fashion Look 1" class="lightbox-trigger">
+                        <div class="card-caption">Fashion Lookbook</div>
+                    </div>
+                    <div class="portfolio-card reveal-item" data-reveal-type="scaleUp" data-delay="0.3s">
+                        <img src="image 9.jpg" alt="Runway Shot" class="lightbox-trigger">
+                        <div class="card-caption">Runway Presence</div>
+                    </div>
+                    <div class="portfolio-card reveal-item" data-reveal-type="scaleUp" data-delay="0.4s">
+                        <img src="image 7.jpg" alt="Beauty Shot" class="lightbox-trigger">
+                        <div class="card-caption">Beauty Close-up</div>
+                    </div>
+                     <div class="portfolio-card reveal-item" data-reveal-type="scaleUp" data-delay="0.5s">
+                        <img src="image 3.jpg" alt="Lifestyle Ad" class="lightbox-trigger">
+                        <div class="card-caption">Lifestyle Campaign</div>
+                    </div>
+                    <div class="portfolio-card reveal-item" data-reveal-type="scaleUp" data-delay="0.5s">
+                        <img src="image 8.jpg" alt="Lifestyle Ad" class="lightbox-trigger">
+                        <div class="card-caption">Lifestyle Campaign</div>
+                    </div>
+                    <!-- Add more portfolio cards here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <div class="container contact-container reveal-item">
+                <h2>Let's Collaborate</h2>
+                <p>Interested in working together or have an inquiry? <br>Reach out, and let's create something amazing.</p>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="cta-button">Send Inquiry</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" target="_blank" title="Instagram">IG</a> <!-- Replace # with actual link -->
+                    <a href="#" target="_blank" title="TikTok">TK</a> <!-- Replace # with actual link -->
+                    <a href="#" target="_blank" title="Email Me">EM</a> <!-- mailto: link -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="container">
+            <p>© <span id="currentYear"></span> Shreya Pandey. All Rights Reserved.</p>
+            <p>Designed with ♥ and a touch of magic.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox">
+        <span class="lightbox-close">×</span>
+        <img class="lightbox-content" id="lightbox-image">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
